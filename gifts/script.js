@@ -1,5 +1,4 @@
-
-window.onload = function() {
+function() bgmusic() {
     var audio = document.getElementById('background-music');
     audio.play().catch(function(error) {
         console.error('Error playing audio:', error);
