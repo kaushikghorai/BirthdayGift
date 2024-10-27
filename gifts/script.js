@@ -1,3 +1,19 @@
+
+window.onload = function() {
+    var audio = document.getElementById('background-music');
+    audio.play().catch(function(error) {
+        console.error('Error playing audio:', error);
+    });
+};
+
+function balloonpop(){
+    var audio = document.getElementById('balloon-pop');
+    audio.volume = 0.2;
+    audio.play().catch(function(error) {
+        console.error('Error playing audio:', error);
+    });
+}
+
 var i=0;
 
 const emojis = ['🙂','🥰','🤩','😘','🤗','❤️','🌹','🥀','🌺','🌷','💐','✨','🎈','🎉','🎊','🎀','🎁'];
@@ -150,18 +166,3 @@ function change(){
 }
 
 
-
-window.onload = function() {
-    var audio = document.getElementById('background-music');
-    audio.play().catch(function(error) {
-        console.error('Error playing audio:', error);
-    });
-};
-
-function balloonpop(){
-    var audio = document.getElementById('balloon-pop');
-    audio.volume = 0.2;
-    audio.play().catch(function(error) {
-        console.error('Error playing audio:', error);
-    });
-}
