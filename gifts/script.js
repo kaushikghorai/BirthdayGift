@@ -13,7 +13,7 @@ function balloonpop(){
     });
 }
 
-var i=0;
+var i=19;
 
 const emojis = ['🙂','🥰','🤩','😘','🤗','❤️','🌹','🥀','🌺','🌷','💐','✨','🎈','🎉','🎊','🎀','🎁'];
 function trigger(){
@@ -142,7 +142,7 @@ function change(){
             messageOpacity("image");
             break;
         case 20:
-            document.getElementById("message").innerHTML = "<h1>Another Birthday Present</h1><h2>Just a simple HTML Home page for your web browsing</h2><div style='text-align: left;'><p>To add an HTML file as your home page in Microsoft Edge, you can:</p><ol><li>Open Microsoft Edge</li><li>Select Settings and more > Settings</li><li>Select Appearance</li><li>Turn on Show home button</li><li>Select Enter URL for the page you want to use as your home page</li><li>Use a URL that starts with 'file:'</li><li>For example, file:///C:/directory/filename.html</li></ol><a href='homepage.html' target='_blank'>Hear is a new homepage for your browser.</a>Please accept if you like this.</div>";
+            document.getElementById("message").innerHTML = "<div id='browsermessage'><h2>Another Birthday Present</h2><p><b>Just a simple HTML Home page for your web browsing.</b></p><div style='text-align: left; font-size: 15px;'><p>To add an HTML file as your home page in Microsoft Edge, you can:</p><ol><li>Open Microsoft Edge</li><li>Select Settings and more > Settings</li><li>Select Appearance</li><li>Turn on Show home button</li><li>Select Enter URL for the page you want to use as your home page</li><li>Use a URL that starts with 'file:'</li><li>For example, file:///C:/directory/filename.html</li></ol><a href='homepage.html' target='_blank'>Hear is a new homepage for your browser.</a> Please accept if you like this.</div></div>";
             break;
         case 21:
             document.getElementById("message").innerHTML = "<h1>Once again 🥰🥰 </h1><a href='https://open.spotify.com/playlist/64ng3eitWOpxADj8OBz7sn?si=ZHkH-77sRiySdPWHOqQ_2A&pt=e5217b4cfbc360a3a517f33563b697b4&pi=iGa8FIPRQiW79' target='_blank'> <img src='spotify.jpeg' width='30%' style='border-radius: 10px'></a>";
